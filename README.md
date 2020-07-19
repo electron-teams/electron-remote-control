@@ -16,5 +16,5 @@ ELECTRON_MIRROR=https://cdn.npm.taobao.org/dist/electron/  npm i electron --arch
 
 ```sh
 #全局
-sudo ELECTRON_MIRROR=https://cdn.npm.taobao.org/dist/electron/  npm i -g electron  user-perm=allow
+sudo ELECTRON_MIRROR=https://cdn.npm.taobao.org/dist/electron/  npm i -g electron  --unsafe-perm=true
 ```
